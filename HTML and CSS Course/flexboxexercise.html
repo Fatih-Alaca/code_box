@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <header><title> Flexbox Exercise </title>
+    <style>
+      .header{
+        background-color: purple;
+        border:none;
+        height: 60px;
+        display: flex;
+        color: white;
+        font-family: Arial;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 3px;
+      }
+      .home{
+        font-size: 18px;
+        font-weight:500;
+        margin-left: 12px;
+      }
+      .text-box{
+        border-radius: 20px;
+        height: 30px;
+        width: 400px;
+        border: none;
+      }
+      .download{
+        margin-right: 12px;
+      }
+      .button{
+        border-radius: 4px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-style: solid;
+        border-color: white;
+        font-size: 18px;
+        color: white;
+        background-color: purple;
+        cursor: pointer;
+        transition:background-color 0.15s;
+      }
+      .button:active{
+        background-color: black;
+      }
+    </style>
+  </header>
+  
+  <body>
+    <div class="header">
+      <div class="home">Home</div>
+      <div class="search-bar"><input class="text-box" type="text" placeholder="Search"></div>
+      <div class="download"><button class="button">Download</button></div>
+    </div>
+
+  </body>
+</html>

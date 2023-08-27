@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head> <title>Grid Exercise</title> </head>
+  <body>
+    <style>
+      .grid-1{
+        display: grid;
+        grid-template-columns: 200px 75px;
+      }
+      .lightblue-1{
+        background-color: lightblue;
+      }
+      .lightpink-1{
+        background-color: lightpink;
+      }
+      .grid-2{
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+        margin-top: 40px;
+      }
+      .lightblue-2{
+        background-color: lightblue;
+      }
+      .lightpink-2{
+        background-color: lightpink;
+      }
+      .lightblue-3{
+        background-color: lightblue;
+      }
+      .grid-3{
+        display: grid;
+        grid-template-columns:100px 100px 100px 100px;
+        column-gap: 20px;
+        row-gap: 10px;
+        margin-top: 40px;
+      }
+      .lightpink-3{
+        background-color: lightpink;
+      }
+    </style>
+
+    <div class="grid-1">
+      <div class="lightblue-1">200px</div>
+      <div class="lightpink-1">75px</div>
+    </div>
+    <div class="grid-2">
+      <div class="lightblue-2">col1</div>
+      <div class="lightpink-2">col2</div>
+      <div class="lightblue-3">col3</div>
+    </div>
+    <div class="grid-3">
+      <div class="lightpink-3">col1</div>
+      <div class="lightpink-3">col2</div>
+      <div class="lightpink-3">col3</div>
+      <div class="lightpink-3">col4</div>
+      <div class="lightpink-3">col1</div>
+      <div class="lightpink-3">col2</div>
+      <div class="lightpink-3">col3</div>
+      <div class="lightpink-3">col4</div>
+    </div>
+  </body>
+</html>

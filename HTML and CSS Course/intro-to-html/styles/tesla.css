@@ -1,0 +1,22 @@
+.title{
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-align: center;
+}
+p{
+  font-family: Montserrat;
+
+}
+
+.underlined{
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: medium;
+}
+.subtitled{
+text-align: center;
+font-size: medium;
+
+}

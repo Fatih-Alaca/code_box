@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Web Store</title>
+</head>
+<style>
+  .product-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .shirt {
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+  }
+
+  .off {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 1px;
+    font-family: Arial;
+    font-size: 17px;
+  }
+
+  .bottom-overlay {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    background-color: rgb(255, 255, 255, 0.8);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+</style>
+
+<body>
+  <div class="product-container">
+    <img class="shirt" src="photos/shirt.jpg">
+    <div class="off">20% OFF</div>
+    <div class="bottom-overlay">
+      <button class="add-to-card-button">Add to Card</button>
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>

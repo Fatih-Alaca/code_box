@@ -1,0 +1,92 @@
+.Follow-button{
+  color: white;
+  background-color:rgb(9, 9, 127);
+  border:none;
+  height:36px;
+  width:108px;
+  border-radius:4px;
+  cursor:pointer;
+  margin-right:6px;
+  }
+  .Follow-button:hover{
+    opacity: 0.8;
+  }
+  .Follow-button:active{
+    opacity: 0.5;
+  }
+
+.JOIN-button{
+  color: rgb(48, 125, 213);
+  background-color: rgb(255, 255, 255);
+  width:80px;
+  height:34px;
+  cursor:pointer;
+  border-color: rgb(48, 125, 213);
+  border-style:ridge;
+  border-width:1px;
+  border-radius: 2px;
+  margin-top: 5px;
+  font-size: large;
+  cursor: pointer;
+  transition:background-color 0.3s, 
+  color 0.3s;
+  padding-bottom: 4px;
+ 
+}
+.JOIN-button:hover{
+  opacity: 0.8;
+  background-color:rgb(48, 125, 213);
+  color:rgb(255, 255, 255); 
+}
+.JOIN-button:active{
+  opacity: 0.5;
+  ;
+}
+.Tweet-button{
+  color: white;
+  background-color: rgb(57, 144, 244);
+  border-radius: 18px;
+  cursor:pointer;
+  margin-left: 6px;
+  border-width: 0px;
+  font-size: medium;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-shadow: 1px 1px 10px black;
+}
+.Tweet-button:hover{
+ background-color: rgb(13, 140, 140);
+ color: black;
+ box-shadow: 1.5px 3px 5px black;
+  
+}
+.Tweet-button:active{
+  opacity:0.5;
+}
+
+.Sign-up-button{
+  color: aliceblue;
+  background-color: darkolivegreen;
+  cursor: pointer;
+  margin-left: 8px;
+  border-radius: 2px;
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  transition: 0.1s;
+  margin-top: 4px;
+  font-size: medium;
+  
+  }
+  .Sign-up-button:active{
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 2px;
+    margin-left: 2px;
+  }
+  .Sign-up-button:hover{
+    background-color: rgb(73, 135, 11);
+  }

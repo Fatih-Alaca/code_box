@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head> <title> CSS POSITION AND ABSOLUTE</title>
+  </head>
+  <style>
+    .body{
+      height: 3000px;
+    }
+    .close-slide{
+      background-color: gray;
+      top: 35%;
+      left: 40%;
+      width: 320px;
+      height: 180px;
+      position: fixed;
+    }
+    .close-button{
+      background-color: black;
+      color: white;
+      position: absolute;
+      top: -15px;
+      left:-15px;
+      font-family: Arial;
+      font-size: 20px;
+      width: 45px;
+      height: 45px;
+      border-radius: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .time{
+      color: white;
+      background-color: black;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      font-family: Arial;
+      font-size: 14px;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-top: 4px;
+      padding-bottom: 3px;
+      border-radius: 2px;
+    }
+  </style>
+  <body>
+      <div class="close-slide">
+        <div class="close-button">X</div>
+        <div class="time">0:29</div>
+      </div>
+  </body>
+</html>
